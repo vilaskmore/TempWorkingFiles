@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Login</title>
+    <link rel="stylesheet" href="./ReactLogin.css" /> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+           <div class="col-md-9 col-xs-12 backImage" >
+           </div> 
+           <div class="col-md-3 col-xs-12" id="sideBar" >
+            <div class="row" style="margin-top:40px;">
+                <div class="col-md-12 col-xs-12 text-center">
+                    <h5 class="animate-top">STC LSI Demo</h5>
+                    <br/>
+                    <p>
+                      <img src="../img1.jpg" class="animate-top" alt="noImg" height="40px" /> 
+                      <br/>  
+                      <br/>
+                      <label class="animate-top" style="font-size: larger;color: white;">Sign In</label>  
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <label hidden id="" ></label>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="animate-top">
+                    <span class="bi bi-person-fill"></span>
+                    <label style="color: white; font-size: small; font-weight: bold">Enter User Name</label>
+                    <br />
+                    <input type="text" class="form-control" placeholder="Enter Email ID / User ID"  ForeColor="White" />
+                </div>
+
+                <div class="animate-top">
+                    <span class="bi bi-lock-fill"></span>  
+                    <label style="color: white;font-size:small;font-weight: bold;" >
+                         Enter Password</label>
+                    <br/>
+                    <input type="password" class="form-control" placeholder="Enter Password" class="form-control"  />
+                </div>
+                <br/>
+                <div class="animate-top">
+                    <input type="button" value="Login" onclick="login()" class="btn btn-primary btn-block" style="width: 100%;"/>
+              </div>  
+            </div>
+           </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.backImage {
+    background-image: url(./OfficeImg2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+#sideBar {
+    background: linear-gradient(to bottom, #DF301C, #FCF9EA);
+}
+
+.animate-top {
+    /* text-align: center; */
+    position: relative;
+    color: white;
+    animation:animateTop 0.5s;
+}
+
+@keyframes animateTop {
+    from {top: -100px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
